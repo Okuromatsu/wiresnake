@@ -87,7 +87,7 @@ class PacketSnifferGUI:
     """Interface graphique Tkinter pour afficher les paquets"""
     def __init__(self, root):
         self.root = root    # Fenêtre principale
-        self.root.title("Wireshark Lite - Python Edition by Simon & Luc")
+        self.root.title("Wiresnake")
         self.packets = []   # Liste contenant tous les paquets capturés
         self.saved_packets = []
         self.pause = False
@@ -326,3 +326,4 @@ if __name__ == "__main__":
     root = tk.Tk()  # Crée la fenêtre principale
     app = PacketSnifferGUI(root)    # Initialise l'interface graphique
     root.mainloop() # Lance la boucle principale Tkinter (reste à l'écoute)
+
