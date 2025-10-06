@@ -3,8 +3,6 @@
 Wiresnake is a simple packet sniffer built in Python using **Scapy** and **Tkinter**.  
 It provides a minimal graphical interface to capture, inspect, and save network packets, similar to a lightweight version of Wireshark.
 
----
-
 ## Features
 
 - Live packet capture (TCP, UDP, ICMP, etc.)
@@ -13,8 +11,6 @@ It provides a minimal graphical interface to capture, inspect, and save network 
 - Pause, resume, start, and stop capture
 - Import and export `.pcap` files
 - Packet details and hex view display
-
----
 
 ## Requirements
 
